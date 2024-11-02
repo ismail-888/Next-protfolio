@@ -49,7 +49,7 @@ const Question = ({ data, index }) => {
           stiffness: show ? 250 : 50,
           opacity: { delay: show ? 0.2 : 0 },
         }}
-        className="pl-8 text-lg font-extralight tracking-wide text-gray-900 first-letter:pl-3"
+        className="box-border origin-top  pl-8 text-lg font-extralight tracking-wide text-gray-900 first-letter:pl-3"
       >
         "{data.answer}"
       </motion.p>
