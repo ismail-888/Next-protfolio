@@ -51,7 +51,7 @@ const Question = ({ data, index }) => {
         }}
         className="box-border origin-top  pl-8 text-lg font-extralight tracking-wide text-gray-900 first-letter:pl-3 dark:text-gray-200"
       >
-        "{data.answer}"
+        {data.answer}
       </motion.p>
     </motion.li>
   );

@@ -21,6 +21,7 @@ const Contact = () => {
             width={400}
             height={400}
             className="w-[400px] rounded-md opacity-80"
+            unoptimized
           />
         </motion.div>
         <motion.form
